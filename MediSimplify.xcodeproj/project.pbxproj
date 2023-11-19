@@ -13,6 +13,11 @@
 		E4E16E052B08039800413E88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E16E032B08039800413E88 /* Main.storyboard */; };
 		E4E16E072B08039C00413E88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E16E062B08039C00413E88 /* Assets.xcassets */; };
 		E4E16E0A2B08039C00413E88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E16E082B08039C00413E88 /* LaunchScreen.storyboard */; };
+		E4E16E122B094F4700413E88 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E16E112B094F4700413E88 /* Article.swift */; };
+		E4E16E162B09649D00413E88 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E16E152B09649D00413E88 /* ResultsTableViewController.swift */; };
+		E4E16E182B09679400413E88 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E16E172B09679400413E88 /* DetailViewController.swift */; };
+		E4E16E1A2B09734500413E88 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E16E192B09734500413E88 /* APIService.swift */; };
+		E4E16E1C2B09758700413E88 /* ArticleParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E16E1B2B09758700413E88 /* ArticleParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		E4E16E062B08039C00413E88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4E16E092B08039C00413E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4E16E0B2B08039C00413E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4E16E112B094F4700413E88 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		E4E16E152B09649D00413E88 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
+		E4E16E172B09679400413E88 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E4E16E192B09734500413E88 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		E4E16E1B2B09758700413E88 /* ArticleParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				E4E16DFD2B08039800413E88 /* AppDelegate.swift */,
 				E4E16DFF2B08039800413E88 /* SceneDelegate.swift */,
 				E4E16E012B08039800413E88 /* ViewController.swift */,
+				E4E16E152B09649D00413E88 /* ResultsTableViewController.swift */,
+				E4E16E172B09679400413E88 /* DetailViewController.swift */,
+				E4E16E112B094F4700413E88 /* Article.swift */,
+				E4E16E1B2B09758700413E88 /* ArticleParser.swift */,
+				E4E16E192B09734500413E88 /* APIService.swift */,
 				E4E16E032B08039800413E88 /* Main.storyboard */,
 				E4E16E062B08039C00413E88 /* Assets.xcassets */,
 				E4E16E082B08039C00413E88 /* LaunchScreen.storyboard */,
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4E16E122B094F4700413E88 /* Article.swift in Sources */,
+				E4E16E1A2B09734500413E88 /* APIService.swift in Sources */,
 				E4E16E022B08039800413E88 /* ViewController.swift in Sources */,
 				E4E16DFE2B08039800413E88 /* AppDelegate.swift in Sources */,
+				E4E16E182B09679400413E88 /* DetailViewController.swift in Sources */,
 				E4E16E002B08039800413E88 /* SceneDelegate.swift in Sources */,
+				E4E16E162B09649D00413E88 /* ResultsTableViewController.swift in Sources */,
+				E4E16E1C2B09758700413E88 /* ArticleParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
