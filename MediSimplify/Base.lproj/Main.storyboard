@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MediSimplify" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ResultsTableViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="MediSimplify" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,7 +64,7 @@
         <!--Navigation Controller-->
         <scene sceneID="Jnz-8V-6rU">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="T6b-Qw-3GS" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="ViewController" automaticallyAdjustsScrollViewInsets="NO" id="T6b-Qw-3GS" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="ZU7-wl-kU9">
                         <rect key="frame" x="0.0" y="59" width="393" height="96"/>
@@ -125,7 +125,6 @@
                     <connections>
                         <outlet property="abstractTextView" destination="RMh-bn-X8g" id="x7g-Pa-Obe"/>
                         <outlet property="authorsLabel" destination="7Sm-Wm-K6Q" id="2mP-z5-eoN"/>
-                        <outlet property="publicationDateLabel" destination="G6K-Qd-wpR" id="dfq-H5-IKw"/>
                         <outlet property="titleLabel" destination="Ibr-8a-tqM" id="SOk-rK-Ol0"/>
                     </connections>
                 </viewController>

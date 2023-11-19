@@ -54,7 +54,7 @@ class ResultsTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ArticleCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         let article = articles[indexPath.row]
         cell.textLabel?.text = article.title
         // Configure the rest of your cell here
@@ -69,7 +69,7 @@ class ResultsTableViewController: UITableViewController {
             DispatchQueue.main.async {
                 switch result {
                 case .success(let fetchedArticles):
-                    self?.performSegue(withIdentifier: "detailSegueIdentifier", sender: fetchedArticles.first)
+                    self?.performSegue(withIdentifier: "cell", sender: fetchedArticles.first)
                 case .failure(let error):
                     print(error.localizedDescription)
                 }
@@ -78,7 +78,7 @@ class ResultsTableViewController: UITableViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "detailSegueIdentifier",
+        if segue.identifier == "cell",
            let destinationVC = segue.destination as? DetailViewController,
            let article = sender as? Article {
             destinationVC.article = article
