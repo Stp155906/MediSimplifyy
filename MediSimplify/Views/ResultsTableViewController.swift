@@ -25,23 +25,23 @@ class ResultsTableViewController: UITableViewController {
     
     
     
-    // Add a new function to fetch articles based on articleIDs
-    func fetchArticles(articleIDs: [String]) {
-        // Implement this method to fetch article details based on IDs
-        // You will need to call a function from APIService similar to fetchArticleIDs
-        // For example:
-        // APIService.shared.fetchArticleDetails(ids: articleIDs) { [weak self] result in
-        //     DispatchQueue.main.async {
-        //         switch result {
-        //         case .success(let fetchedArticles):
-        //             self?.articles = fetchedArticles
-        //             self?.tableView.reloadData()
-        //         case .failure(let error):
-        //             print(error.localizedDescription)
-        //         }
-        //     }
-        // }
-    }
+//    // Add a new function to fetch articles based on articleIDs
+//    func fetchArticles(articleIDs: [String]) {
+//        // Implement this method to fetch article details based on IDs
+//        // You will need to call a function from APIService similar to fetchArticleIDs
+//        // For example:
+//        // APIService.shared.fetchArticleDetails(ids: articleIDs) { [weak self] result in
+//        //     DispatchQueue.main.async {
+//        //         switch result {
+//        //         case .success(let fetchedArticles):
+//        //             self?.articles = fetchedArticles
+//        //             self?.tableView.reloadData()
+//        //         case .failure(let error):
+//        //             print(error.localizedDescription)
+//        //         }
+//        //     }
+//        // }
+//    }
     
     // MARK: - Table view data source
     
